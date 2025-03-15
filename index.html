@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #progreso {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juego de Adivinanza</h1>
+    <p>¡Adivina la palabra secreta! Introduce una letra:</p>
+
+    <div id="progreso">_ _ _ _ _</div>
+    <input type="text" id="letra" maxlength="1" placeholder="Introduce una letra">
+    <button id="adivinar">Adivinar</button>
+
+    <script src="JS/adivinaLaPalabra.js"></script>
+</body>
+</html>
