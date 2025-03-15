@@ -14,15 +14,23 @@
             font-size: 1.5em;
             margin: 20px 0;
         }
+        #vidas {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Juego de Adivinanza</h1>
     <p>¡Adivina la palabra secreta! Introduce una letra:</p>
+    <p>Pista: Esta relacionada al desarrollo de software</p>
 
     <div id="progreso">_ _ _ _ _</div>
     <input type="text" id="letra" maxlength="1" placeholder="Introduce una letra">
     <button id="adivinar">Adivinar</button>
+
+    <p id="vidas">Intentos restantes: 5</p>
+    <p>Letras incorrectas: <span id="incorrectas"></span></p>
 
     <script src="JS/adivinaLaPalabra.js"></script>
 </body>
